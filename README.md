@@ -4,12 +4,7 @@ Nothing serious here gng , just sum course bs i need to keep track of
 
 ```mermaid
 flowchart TD
-    %% Styling
-    classDef main fill:#1e1e1e,stroke:#fff,stroke-width:2px,color:#fff
-    classDef data fill:#1b4f72,stroke:#a9cce3,stroke-width:1px,color:#fff
-    classDef backend fill:#4a235a,stroke:#d7bde2,stroke-width:1px,color:#fff
-    classDef viz fill:#0e6251,stroke:#a2d9ce,stroke-width:1px,color:#fff
-
+    
     subgraph Phase 1: Data Processing Pipeline
         D1[CuMiDa GSE50161 Dataset\n54,676 Features]:::data --> D2[Variance Threshold Filtering\nPandas]:::data
         D2 -->|Isolate Top 1000| D3[Ensembl BioMart API\nSpatial Coordinate Mapping]:::data
