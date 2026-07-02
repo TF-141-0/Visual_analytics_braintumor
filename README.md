@@ -2,6 +2,7 @@
 
 Nothing serious here gng , just sum course bs i need to keep track of 
 
+```mermaid
 flowchart TD
     %% Styling
     classDef main fill:#1e1e1e,stroke:#fff,stroke-width:2px,color:#fff
